@@ -17,5 +17,5 @@ phases:
       - printf '[{"name":"myapp","imageUri":"857964065915.dkr.ecr.eu-west-3.amazonaws.com/my-first-repo:latest"}]' > imagedefinitions.json
       - cat imagedefinitions.json
 artifacts:
-    files:
-        - imagedefinitions.json
+    files: imagedefinitions.json
+        
